@@ -25,15 +25,15 @@ df_hourly = pd.read_csv('cbs_hourly.csv')
 
 @st.cache
 def read_files():
-	  read1 = pd.read_csv('cbs_individual_records_1_seventh.zip',compression='zip')
-    read2 = pd.read_csv('cbs_individual_records_2_seventh.zip',compression='zip')
-    read3 = pd.read_csv('cbs_individual_records_3_seventh.zip',compression='zip')
-    read4 = pd.read_csv('cbs_individual_records_4_seventh.zip',compression='zip')
-    read5 = pd.read_csv('cbs_individual_records_5_seventh.zip',compression='zip')
-    read6 = pd.read_csv('cbs_individual_records_6_seventh.zip',compression='zip')
-    read7 = pd.read_csv('cbs_individual_records_7_seventh.zip',compression='zip')
-    whole = pd.concat([read1, read2, read3, read4, read5, read6, read7])
-    return whole
+	read1 = pd.read_csv('cbs_individual_records_1_seventh.zip',compression='zip')
+	read2 = pd.read_csv('cbs_individual_records_2_seventh.zip',compression='zip')
+    	read3 = pd.read_csv('cbs_individual_records_3_seventh.zip',compression='zip')
+    	read4 = pd.read_csv('cbs_individual_records_4_seventh.zip',compression='zip')
+    	read5 = pd.read_csv('cbs_individual_records_5_seventh.zip',compression='zip')
+    	read6 = pd.read_csv('cbs_individual_records_6_seventh.zip',compression='zip')
+    	read7 = pd.read_csv('cbs_individual_records_7_seventh.zip',compression='zip')
+    	whole = pd.concat([read1, read2, read3, read4, read5, read6, read7])
+    	return whole
 
 cbs = read_files()
 
