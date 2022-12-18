@@ -165,7 +165,6 @@ tzdata==2022.4
 tzlocal==4.2
 urllib3==1.26.12
 validators==0.20.0
-wandb==0.13.5
 watchdog==2.1.9
 wcwidth==0.2.5
 Werkzeug==2.2.2
