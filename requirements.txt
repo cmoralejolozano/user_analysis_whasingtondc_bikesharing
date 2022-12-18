@@ -171,7 +171,6 @@ wcwidth==0.2.5
 Werkzeug==2.2.2
 wget==3.2
 widgetsnbextension==4.0.3
-windows-curses==2.3.0
 wordcloud==1.8.2.2
 wsproto==1.2.0
 XlsxWriter==3.0.3
