@@ -70,8 +70,6 @@ lxml==4.9.1
 MarkupSafe==2.1.1
 matplotlib==3.6.0
 matplotlib-inline==0.1.6
-miceforest==5.6.2
-missingpy==0.2.0
 multitasking==0.0.11
 munch==2.5.0
 nbformat==5.7.0
@@ -173,6 +171,5 @@ widgetsnbextension==4.0.3
 wordcloud==1.8.2.2
 wsproto==1.2.0
 XlsxWriter==3.0.3
-yfinance==0.1.74
 zipfile36==0.1.3
 zipp==3.8.1
